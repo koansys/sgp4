@@ -7,8 +7,10 @@ before_script:
 notifications:
   irc: irc.freenode.org#koansys
   email:
-    - info+travisci-isat@koansys.com
+  - info+travisci-isat@koansys.com
 env:
   global:
   - secure: XSCtBuiZ2WC39TzwlaNGrW7pevUrRVpYkR7hUPH6EUpChamOArrerG1XJQV6yl060h3KLV1B4eZDrFW9e1HCLL4WmOkX5Pi0ixgtxpypluI3Bm94Cq0L8u75zGd6rv4aCMQExPwdOXQ6prvoa8ya+g4k2FJHnNCK1yBFnspfrK4=
   - secure: UZa/nq8KrGtFwkdQDYiIYnMGk56aunDvFwXfHQVQlmUVAgoVagQImfhGvYQPrGSWQAa1+pgRPKDIDhuqKt6wcSJes+j1XApbvkJnZaWEpL7qhBfdvULn7ZD5lfJLuqdlOC/LWkVk6y74JyOE1ZfhWIKJ+LjOf+Bzvj96UBvMXkk=
+  - secure: TXIbdZCYcbsqNx/MDo7rDPN7v1JRbQtiiQBZzChV+0AAK/kuGL7lfqD23g7rGRn/LLdX73pAJbQXZHlpGBnaOr4oouYx8lzFNg8ycW0ECZv2dwuoUsXgljl123VHl3o+witNil7cVt9tbdA4F5kG1yCALFzMTvUjiZTKeg254EI=
+  - secure: XDT59dNprcV9KdTUGUPpinIx5fUWQWQpAyc5c8WbXBu2K7rakYirz0OLrwfAA2x9UsG+Y0+BfyJM92OyAq09DFs/Tp2I/yqi7MceuoI7AwZV3m3kbbTnV5gUFubp2FZ+qju6wk6vt/mkP8ETdEgx/pm9/Tvxqaf57VUebAlLYjA=
