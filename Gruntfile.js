@@ -54,7 +54,7 @@ module.exports = function(grunt) {
                                 args: ["--test-type"]
                             }
                         },
-                        testname: "js-sgp4lib Unit tests",
+                        testname: "sgp4 Unit tests",
                         tags: ["master"],
                         sauceConfig: {
                             "video-upload-on-pass": false,
