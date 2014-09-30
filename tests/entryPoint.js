@@ -4,7 +4,7 @@
 // This entryPoint.js sets up RequireJS for testing
 
 require.config({
-    baseUrl: '../sgp4/lib/',
+    baseUrl: '../lib/',
     paths: {
         tests: '../tests',
         vendor: '../vendor'
