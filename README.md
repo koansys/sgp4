@@ -1,7 +1,7 @@
 SGP4
 ----
 
-[![Build Status](https://travis-ci.org/koansys/isat.svg?branch=feature/js-sgp4)](http://travis-ci.org/koansys/isat)
+[![Build Status](https://travis-ci.org/koansys/sgp4.svg?branch=develop)](http://travis-ci.org/koansys/isat)
 [![Sauce Test Status](https://saucelabs.com/buildstatus/koansys-oss)](https://saucelabs.com/u/koansys-oss)
 
 
