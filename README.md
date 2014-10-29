@@ -17,7 +17,11 @@ This really needs some info
 History
 =======
 
-dissertation -> fortran -> Java -> JS -> RequireJS
+Simplified General Perturbations (SGP) models 
+
+This code began as a port of the MATLAB SGP4 code included with [Nicolas Miura's Thesis CD](http://digitalcommons.calpoly.edu/cgi/viewcontent.cgi?filename=0&article=1094&context=theses&type=additional). The CD 
+
+MATLAB code dissertation -> fortran -> Java -> JS -> RequireJS
 
 Usage
 =====
