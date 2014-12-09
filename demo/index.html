@@ -2,7 +2,7 @@
 <html>
 	<head>
 		<style>
-			@import url("cesium12/Build/Cesium/Widgets/widgets.css");
+			@import url("cesium/Build/Cesium/Widgets/widgets.css");
 			#cesiumContainer{
 				position: absolute;
 				top: 0;
@@ -26,11 +26,15 @@
 		</style>
 	</head>
 	<body>
-		<div id="cesiumContainer"></div>
-
-		<script src="cesium12/Build/Cesium/Cesium.js"></script>
+	<div id="cesiumContainer"></div>
+		<script src="tle.js"></script>
+		<!-- <script src="cesium/Build/Cesium/Cesium.js"></script> -->
 		<script>
-			var viewer = new Cesium.Viewer("cesiumContainer");
+			// Cesium.BingMapsApi.defaultKey = "Arw3WdHHGrxy94-ExOXIsTiyOmp8gmKrzLN4H6o9WB0YEBiLSMqVcCIBUPycIPyx";
+
+			// var viewer = new Cesium.Viewer("cesiumContainer");
 		</script>
+		<script src="../vendor/require-min.js"></script>
+		<script src="index.js"></script>
 	</body>
 </html>
