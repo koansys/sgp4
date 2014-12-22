@@ -9,8 +9,11 @@ requirejs.config({
     baseUrl: "../lib",
 
     paths: {
-        cesium: '/demo/cesium/Source'
-    }
-});
+		domReady: "/domReady",
+        cesium: "/cesium/Source",
+    	viewer: "/viewer"
+	}
+})
 
 // Need to setup a cesium requirejs loader.
+require(["viewer"], function(){});
